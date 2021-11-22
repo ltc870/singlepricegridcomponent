@@ -75,6 +75,7 @@ h1 {
   background-color: #f2f2f2;
   margin: 0 auto;
   padding: 2em;
+  padding-bottom: 3em;
   width: 95%; 
   
 }
@@ -103,7 +104,7 @@ h1 {
 .grid-item2 {
   background-color: #11a2a7e5;
   grid-column: span 2;
-  padding-bottom: 0;
+  padding-bottom: .5em;
 }
 
 .grid-item2 .grid-item__title {
@@ -148,6 +149,10 @@ h1 {
 
 .grid-item3__list {
   padding: 0;
+}
+
+.grid-list-item {
+  margin-bottom: .25em;
 }
 
 @media (min-width: 800px) {
